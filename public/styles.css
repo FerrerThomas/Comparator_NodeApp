@@ -1,0 +1,85 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 600px;
+    margin: 50px auto; /* Centrar horizontalmente */
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar contenido horizontalmente */
+}
+
+/* Encabezados */
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Formularios */
+label {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+/* Envoltorio para centrar el botón */
+.button-wrapper {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    width: 100%; /* Asegurar que tome el espacio completo */
+    margin-top: 20px; /* Espaciado desde el último elemento */
+}
+
+/* Botón Comparar */
+button {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff80;
+    text-shadow: none;
+    background: transparent;
+    cursor: pointer;
+    box-shadow: transparent;
+    border: 1px solid #ffffff80;
+    transition: 0.5s ease;
+    user-select: none;
+}
+
+#btn:hover,
+#btn:focus {
+    color: #ffffff;
+    background: #008cff;
+    border: 1px solid #008cff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+        0 0 100px #008cff;
+}
+
+/* Resultados */
+#result {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 5px 0;
+}

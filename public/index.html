@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparador de Seguidores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Comparador de Seguidores</h1>
+        <form id="fileForm">
+            <label for="followersFile">Archivo de Seguidores:</label>
+            <input type="file" id="followersFile" accept=".html">
+
+            <label for="followingFile">Archivo de Seguidos:</label>
+            <input type="file" id="followingFile" accept=".html">
+
+            <!-- Botón Comparar -->
+            <div class="button-wrapper">
+                <button type="button" id="btn">Comparar</button>
+            </div>
+        </form>
+
+        <div id="result">
+            <h2>Resultados</h2>
+            <ul id="notFollowingBack"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
